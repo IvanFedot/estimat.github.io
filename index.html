@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Estimat.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Estimat.com</title>
+</head>
+<body>
+    <input class="Header" placeholder="Название игры"/>
+    <div class="Main">
+        <img class="Photo" id="url_photo" src="https://i.pinimg.com/originals/c2/84/d3/c284d3bb755f73f0cfcd6ef6bbb5f6c9.jpg" alt="" />
+        <input class="UrlPhoto" id="url_input" placeholder="Ссылка на изображение" type="url"/>
+        <div class="OneBox">
+            <label id="1.1" for="oneProperty">Графика</label>
+            <label id="1.2" class="Number" for="oneProperty">3 / 5</label>
+            <input id="1" type="range" name="oneProperty" max="10" step="2"/>
+        </div>
+        <div class="TwoBox">
+            <label id="2.1" for="twoProperty">Атмосфера</label>
+            <label id="2.2" class="Number" for="twoProperty">3 / 5</label>
+            <input id="2" type="range" name="twoProperty" max="20" step="4"/>
+        </div>
+        <div class="ThreeBox">
+            <label id="3.1" for="threeProperty">Сюжет / История</label>
+            <label id="3.2" class="Number" for="threeProperty">5 / 10</label>
+            <input id="3" type="range" name="threeProperty" max="10"/>
+        </div>
+        <div class="FourBox">
+            <label id="4.1" for="fourProperty">Геймплей</label>
+            <label id="4.2" class="Number" for="fourProperty">5 / 10</label>
+            <input id="4" type="range" name="fourProperty" max="40" step="4"/>
+        </div>
+        <h1 id="Score">100 / 100</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
